@@ -1,3 +1,4 @@
+
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
@@ -17,6 +18,7 @@ body {
     max-width: 1200px;
 }
 
+
 .header {
     background: #333;
     color: #fff;
@@ -35,6 +37,7 @@ body {
     justify-content: flex-end;
     gap: 15px;
 }
+
 .nav-links li a {
     color: #fff;
     text-decoration: none;
@@ -44,6 +47,7 @@ body {
 .nav-links li a:hover {
     color: #00bcd4;
 }
+
 
 section {
     padding: 20px 0;
