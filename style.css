@@ -17,7 +17,6 @@ body {
     max-width: 1200px;
 }
 
-/* Header Styles */
 .header {
     background: #333;
     color: #fff;
@@ -35,4 +34,46 @@ body {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
+}
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #00bcd4;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.about-section {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.projects-section {
+    background: #00bcd4;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.project-card {
+    background: #fff;
+    color: #333;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
 }
